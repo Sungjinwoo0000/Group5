@@ -1,0 +1,17 @@
+CREATE DATABASE student_db;
+
+USE student_db;
+
+CREATE TABLE students (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    full_name VARCHAR(255),
+    dob DATE,
+    address TEXT,
+    id_number VARCHAR(20),
+    course VARCHAR(50),
+    gwa DECIMAL(5,2),
+    attendance_record VARCHAR(10),
+    disciplinary_history TEXT,
+    health_info TEXT,
+    tuition_payment DECIMAL(10,2)
+);
